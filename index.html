@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logistics | Demo Website</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ---------- HEADER ---------- -->
+    <!-- <header class="header ">
+      <div class="header__content container">
+        <h2 class="logo">TranspoX</h2>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item">
+              <a href="#cta" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item"><a href="#testimonials" class="nav__link">Testimonials</a></li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="#footer" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header> -->
+      <header class="header">
+        <div class="header__content header-mob container">
+          <h2><a href="#home" class="header__logo">TranspoX</a></h2>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#cta" class="nav__link">Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="#testimonials" class="nav__link">Testimonials</a>
+              </li>
+              <li class="nav__item">
+                <a href="#blog" class="nav__link">Blog</a>
+              </li>
+              <li class="nav__item">
+                <a href="#footer" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__burger">
+          <div class="header__burger-line-1"></div>
+          <div class="header__burger-line-2"></div>
+          <div class="header__burger-line-3"></div>
+        </div>
+        <span class="overlay"></span>
+    </header>
+
+    <main id="home" class="main">
+      <!-- ---------- HOME ---------- -->
+      <section id="home" class="home ">
+        <div class="home__content container">
+          <div class="home__wrapper-1">
+            <h1 class="home__title anim__home-w1">Discover Logistic <span class="home__title-span"> Services</span></h1>
+            <p class="home__description anim__home-w1">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Quisquam, facere. Voluptate, in. Vero natus necessitatibus atque,
+              exercitationem cupiditate quidem incidunt.
+            </p>
+          </div>
+
+          <div class="home__wrapper-2">
+            <input
+              type="text"
+              placeholder="ZIP Code or City. (e.g. Manila)"
+              class="home__search"
+            />
+            <button type="submit" class="btn">Search</button>
+          </div>
+
+          <div class="home__wrapper-3">
+            <div class="home__item anim__home-w2">
+              <h2 class="home__number">2,006</h2>
+              <hr class="hr" />
+              <h5 class="home__number-title"># of Companies</h5>
+            </div>
+
+            <div class="home__item anim__home-w2">
+              <h2 class="home__number">3,925</h2>
+              <hr class="hr" />
+              <h5 class="home__number-title"># of Roag Freight</h5>
+            </div>
+
+            <div class="home__item anim__home-w2">
+              <h2 class="home__number">42,952</h2>
+              <hr class="hr" />
+              <h5 class="home__number-title"># of Air Freight</h5>
+            </div>
+
+            <div class="home__item anim__home-w2">
+              <h2 class="home__number">6,015</h2>
+              <hr class="hr" />
+              <h5 class="home__number-title"># of Sea Freight</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ---------- CARDS ---------- -->
+
+      <div class="home__cards">
+        <div class="home__cards-content container">
+          <div class="home__card anim__home-card">
+            <div class="home__card-img">
+              <i class="las la-plane icon"></i>
+            </div>
+            <div class="home__card-content">
+              <h4 class="home__card-title">Air Freight</h4>
+              <h5 class="home__card-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus deserunt libero earum, quisquam quae corporis.
+              </h5>
+              <a href="#" class="home__card-btn">Read More <i class="las la-angle-double-right "></i></a>
+            </div>
+          </div>
+
+          <div class="home__card anim__home-card">
+            <div class="home__card-img"><i class="las la-ship icon"></i></div>
+            <div class="home__card-content">
+              <h4 class="home__card-title">Sea Freight</h4>
+              <h5 class="home__card-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus deserunt libero earum, quisquam quae corporis.
+              </h5>
+              <a href="#" class="home__card-btn">Read More <i class="las la-angle-double-right "></i></a>
+            </div>
+          </div>
+
+          <div class="home__card anim__home-card">
+            <div class="home__card-img"><i class="las la-shipping-fast icon"></i></div>
+            <div class="home__card-content">
+              <h4 class="home__card-title">Land Freight</h4>
+              <h5 class="home__card-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus deserunt libero earum, quisquam quae corporis.
+              </h5>
+              <a href="#" class="home__card-btn">Read More <i class="las la-angle-double-right "></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---------- ABOUT ---------- -->
+      <section id="about" class="about container">
+        <div class="about__content">
+          <div class="about__wrapper-1 ">
+            <div class="anim__about-main">
+              <span class="about__subtitle ">Mission</span>
+              <h2 class="about__title ">About Us</h2>
+            </div>
+            <p class="about__description anim__about-main">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
+              harum ea reiciendis repellendus facilis accusantium quia nobis.
+              Omnis unde rem voluptas facere optio necessitatibus.
+              Exercitationem nesciunt nobis sequi ad labore.
+            </p>
+            <div class="about__list">
+              <div class="about__item anim__about-item">
+                <div class="about__img"><i class="las la-plane icon"></i></div>
+                <div class="about__item-content">
+                  <h4 class="about__item-title">Air Freight</h3>
+                  <p class="about__item-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea
+                    unde ratione nobis mollitia neque nostrum.
+                  </p>
+                </div>
+              </div>
+
+              <div class="about__item anim__about-item">
+                <div class="about__img"><i class="las la-ship icon"></i></div>
+                <div class="about__item-content">
+                  <h4 class="about__item-title">Sea Freight</h3>
+                  <p class="about__item-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea
+                    unde ratione nobis mollitia neque nostrum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about__wrapper-2 anim__about-img">
+            <img src="./images/about-img.jpg" alt="" class="about__avatar" />
+          </div>
+        </div>
+      </section>
+      <!-- ---------- CALL TO ACTION ---------- -->
+      <section id="cta" class="cta">
+        <div class="container">
+          <div class="cta__content ">
+            <h2 class="cta__title anim__cta">
+              Delivering Best Results for Industry Leaders
+            </h2>
+            <p class="cta__description anim__cta">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio, nobis aperiam numquam error aspernatur molestiae adipisci, cum similique officiis placeat maxime ullam sequi.
+            </p>
+            <a href="" class="btn anim__cta">Get Started</a>
+          </div>
+        </div>
+        
+      </section>
+
+      <div id="testimonials" class="merge">
+        <div class="merge__wrapper container">
+          <!-- ---------- TESTIMONIALS ---------- -->
+          <section class="testimonials">
+            <div class="testimonials__content">
+              <div class="testimonials__wrapper-1 anim__testimonials-w1">
+                <span class="testimonials__subtitle">Testimonials</span>
+                <h2 class="testimonials__title">Delighted Clients</h2>
+              </div>
+
+              <div class="testimonials__wrapper-2 anim__testimonials-w2">
+                <div class="swiper testimonials__swiper">
+                  <div class="swiper-wrapper testimonials__swiper-wrapper">
+                    
+                    <div class="testimonials__item swiper-slide">
+                      <div class="testimonials__avatar-container">
+                        <img src="./images/avatar-1.jpg" alt="" class="testimonials__avatar">
+                      </div>
+                      <div>
+                        <h4 class="testimonials__name">John Doe</h4>
+                        <h5 class="testimonials__role">Software Engineer at Tesla</h5>
+                      </div>
+                      <div>
+                        <p class="testimonials__testimony">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos illo asperiores, totam itaque qui, exercitationem iure modi ut, voluptate voluptatum mollitia recusandae maiores sunt quibusdam. Quasi dolore tenetur fugit veritatis consequuntur.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="testimonials__item swiper-slide">
+                      <div class="testimonials__avatar-container">
+                        <img src="./images/avatar-2.jpg" alt="" class="testimonials__avatar">
+                      </div>
+                      <div>
+                        <h4 class="testimonials__name">Jane Doe</h4>
+                        <h5 class="testimonials__role">Medical Head at Tesla</h5>
+                      </div>
+                      <div>
+                        <p class="testimonials__testimony">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos illo asperiores, totam itaque qui, exercitationem iure modi ut, voluptate voluptatum mollitia recusandae maiores sunt quibusdam. Quasi dolore tenetur fugit veritatis consequuntur, cumque vel magnam quam ratione architecto.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="testimonials__item swiper-slide">
+                      <div class="testimonials__avatar-container">
+                        <img src="./images/avatar-3.jpg" alt="" class="testimonials__avatar">
+                      </div>
+                      <div>
+                        <h4 class="testimonials__name">John Doe</h4>
+                        <h5 class="testimonials__role">Civil Head Engineer at Tesla</h5>
+                      </div>
+                      <div>
+                        <p class="testimonials__testimony">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos illo asperiores, totam itaque qui, exercitationem iure modi ut, voluptate voluptatum mollitia recusandae maiores.
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!-- testimonials__swiper-wrapper  -->
+                  
+                  <!-- <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div> -->
+                  <div class="testimonials__bottom-tracker">
+                    <div class="testimonials__arrow-container">
+                      <div class="testimonials__arrow prev"><i class="las la-angle-left"></i></div>
+                      <div class="testimonials__arrow next"><i class="las la-angle-right"></i></div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                  </div>
+                  
+                </div>
+                <!-- testimonials__swiper  -->
+              </div>
+              <!-- testimonials__wrapper-2  -->
+
+
+            </div> 
+            <!-- testimonials content -->
+          </section>
+          <!-- testimonials  -->
+
+          <!-- ---------- FAQS ---------- -->
+          <section class="faq">
+            <div class="faq__content">
+              <div class="faq__wrapper-1 anim__faq-w1">
+                <span class="faq__subtitle">FAQs</span>
+                <h2 class="faq__title">Any Questions?</h2>
+              </div>
+
+              <div class="faq__wrapper-2 anim__faq-w2">
+                <div class="accordion">
+
+                  <div class="accordion__item">
+                    <div class="accordion__header">
+                      <div class="accordion__icon-container">
+                        <i class="las la-plus accordion__icon"></i>
+                      </div>
+                      <div class="accordion__content">
+                        <h4 class="accordion__title">Lorem ipsum dolor sit amet consectetur?</h4>
+                        <div class="accordion__body">
+                          <p class="accordion__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda optio repellat sed dolores soluta voluptatum rem minus ducimus ea molestias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, totam.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__item">
+                    <div class="accordion__header">
+                      <div class="accordion__icon-container">
+                        <i class="las la-plus accordion__icon"></i>
+                      </div>
+                      <div class="accordion__content">
+                        <h4 class="accordion__title">Lorem ipsum dolor sit amet?</h4>
+                        <div class="accordion__body">
+                          <p class="accordion__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda optio repellat sed dolores soluta voluptatum rem minus ducimus ea molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sequi sit id eos maiores unde. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion__item">
+                    <div class="accordion__header">
+                      <div class="accordion__icon-container">
+                        <i class="las la-plus accordion__icon"></i>
+                      </div>
+                      <div class="accordion__content">
+                        <h4 class="accordion__title">Lorem ipsum dolor sit amet consectetur adipisicing elit?</h4>
+                        <div class="accordion__body">
+                          <p class="accordion__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda optio repellat sed dolores soluta Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel natus eveniet, nesciunt reprehenderit in voluptates veritatis quod dicta!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+ 
+                </div>
+                <!-- Accordion  -->
+
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+
+      <!-- ---------- BLOGS ---------- -->
+      <section id="blog" class="blog container">
+        <div class="blog__content">
+          <div class="blog__wrapper-1">
+            <span class="blog__subtitle">News</span>
+            <h2 class="blog__title">Latest News</h2>
+          </div>
+
+          <div class="blog__wrapper-2">
+            <div class="blog__card anim__blog-card">
+              <div class="blog__card-img_container">
+                <img src="./images/blog1-min.png" alt="" class="blog__card-img" />
+              </div>
+              <div>
+                  <h4 class="blog__card-title">Lorem ipsum dolor sit.</h4>
+                  <span class="blog__card-date">August 27, 2021</span>
+              </div>
+              <h5 class="blog__card-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                error nemo rerum mollitia officia culpa, doloremque non soluta
+                similique, reprehenderit aliquid nesciunt et dolor expedita
+                dicta corrupti consequatur illo blanditiis.
+              </h5>
+              <a href="" class="blog__card-btn ">Read More <i class="las la-angle-double-right"></i></a>
+            </div>
+
+            <div class="blog__card anim__blog-card">
+              <div class="blog__card-img_container">
+                <img src="./images/blog2-min.png" alt="" class="blog__card-img" />
+
+              </div>
+              <div>
+                  <h4 class="blog__card-title">Lorem ipsum dolor sit.</h4>
+                  <span class="blog__card-date">August 27, 2021</span>
+              </div>
+              <h5 class="blog__card-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                error nemo rerum mollitia officia culpa, doloremque non soluta
+                similique, reprehenderit aliquid nesciunt et dolor expedita
+                dicta corrupti consequatur illo blanditiis.
+              </h5>
+              <a href="" class="blog__card-btn ">Read More <i class="las la-angle-double-right"></i></a>
+            </div>
+
+            <div class="blog__card anim__blog-card">
+              <div class="blog__card-img_container">
+                <img src="./images/blog3-min.png" alt="" class="blog__card-img" />
+
+              </div>
+
+              <div>
+                  <h4 class="blog__card-title">Lorem ipsum dolor sit.</h4>
+                  <span class="blog__card-date">August 27, 2021</span>
+              </div>
+              <h5 class="blog__card-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                error nemo rerum mollitia officia culpa, doloremque non soluta
+                similique, reprehenderit aliquid nesciunt et dolor expedita
+                dicta corrupti consequatur illo blanditiis.
+              </h5>
+              <a href="" class="blog__card-btn ">Read More <i class="las la-angle-double-right"></i></a>
+            </div>
+
+            <div class="blog__card anim__blog-card">
+              <div class="blog__card-img_container">
+
+                <img src="./images/blog1-min.png" alt="" class="blog__card-img" />
+              </div>
+
+              <div>
+                  <h4 class="blog__card-title">Lorem ipsum dolor sit.</h4>
+                  <span class="blog__card-date">August 27, 2021</span>
+              </div>
+              <h5 class="blog__card-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                error nemo rerum mollitia officia culpa, doloremque non soluta
+                similique, reprehenderit aliquid nesciunt et dolor expedita
+                dicta corrupti consequatur illo blanditiis.
+              </h5>
+              <a href="" class="blog__card-btn ">Read More <i class="las la-angle-double-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ---------- FOOTER ---------- -->
+    <footer id="footer" class="footer">
+      <div class="footer__content container">
+        <div class="footer__wrapper-1">
+          <div class="footer__about">
+            <h3 class="footer__about-title">TranspoX</h3>
+            <p class="footer__about-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
+              incidunt dicta ad, eaque non dignissimos.
+            </p>
+          </div>
+
+          <div class="footer__social">
+            <h4 class="footer__social-title">Connect with us</h4>
+            <ul class="footer__social-links">
+              <li class="footer__social-link"><i class="lab la-instagram social"></i></li>
+              <li class="footer__social-link"><i class="lab la-facebook-f social"></i></li>
+              <li class="footer__social-link"><i class="lab la-twitter social"></i></li>
+              <li class="footer__social-link"><i class="lab la-linkedin-in social"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__wrapper-2">
+          <div class="footer__item">
+            <h4 class="footer__item-title">Links</h4>
+            <div class="footer__item-content">
+              <ul class="footer__item-links">
+                <li class="footer__item-link">About us</li>
+                <li class="footer__item-link">Services</li>
+                <li class="footer__item-link">News</li>
+                <li class="footer__item-link">Careers</li>
+                <li class="footer__item-link">Contact</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer__item">
+            <h4 class="footer__item-title">Company</h4>
+            <div class="footer__item-content">
+              <ul class="footer__item-links">
+                <li class="footer__item-link">About us</li>
+                <li class="footer__item-link">Services</li>
+                <li class="footer__item-link">News</li>
+                <li class="footer__item-link">Careers</li>
+                <li class="footer__item-link">Contact</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer__item">
+            <h4 class="footer__item-title">Contact</h4>
+            <div class="footer__item-content">
+              <ul class="footer__item-links">
+                <li class="footer__item-link">Cainta, Rizal Philippines</li>
+                <li class="footer__item-link">+639999999999</li>
+                <li class="footer__item-link">+639999999999</li>
+                <li class="footer__item-link">mywebsite@mydomain.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__copyright container">
+        <span class="footer__copyright-content">
+          Copyright &copy; 2021 All rights reserved by Sean Caleb
+        </span>
+      </div>
+    </footer>
+
+    <!-- ---------- SCRIPTS ---------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="animations.js"></script>
+    <script src="accordion.js"></script>
+    <script src="header.js"></script>
+  </body>
+</html>

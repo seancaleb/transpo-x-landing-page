@@ -1,0 +1,168 @@
+:root {
+  --swiper-theme-color: #d3341e;
+}
+
+::selection {
+  background: transparent;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
+}
+
+html {
+  font-size: 62.5%;
+
+  // @include respond(tab-land) {
+  //   font-size: 68.75%;
+  // }
+
+  // @include respond(phone) {
+  //   font-size: 75%;
+  // }
+
+  // @media screen and (max-width: 27.5em) {
+  //   font-size: 68.75%;
+  // }
+
+  // @media screen and (max-width: 25em) {
+  //   font-size: 62.5%;
+  // }
+
+  @include respond(phone) {
+    font-size: 59.375%;
+  }
+
+  @media screen and (max-width: 25em) {
+    font-size: 56.25%;
+  }
+
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: $body-font;
+  font-size: $normal-fsize;
+  background-color: $color-white;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-family: $title-font;
+  color: $color-black;
+  font-weight: bold;
+}
+
+// HEADER SIZES
+h1 {
+  font-size: $h1-fsize;
+}
+
+h2 {
+  font-size: $h2-fsize;
+}
+
+h3 {
+  font-size: $h3-fsize;
+}
+
+h4 {
+  font-size: $h4-fsize;
+}
+
+h5 {
+  font-size: $h5-fsize;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input {
+  border: none;
+  font-family: $body-font;
+  font-size: $normal-fsize;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+.main {
+  overflow-x: hidden; // for animation
+}
+
+.btn {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19rem;
+  height: 5rem;
+  background: linear-gradient(
+    105deg,
+    $color-p-600 0%,
+    $color-p-500 90%,
+    $color-p-400 100%
+  );
+  color: $color-white;
+  font-size: $h5-fsize;
+  border-radius: 0.2rem;
+  text-transform: capitalize;
+  font-family: $title-font;
+
+  @media screen and (max-width: 25em) {
+    width: 100%;
+  }
+}
+
+.container {
+  width: calc(min(90%, 140rem));
+  margin-inline: auto;
+}
+
+.hr {
+  width: 5rem;
+  border-color: $color-p-600;
+}
+
+.icon {
+  font-size: 4.8rem;
+  color: $color-p-600;
+}
+
+.social {
+  font-size: 2rem;
+}
